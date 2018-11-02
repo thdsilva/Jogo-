@@ -18,3 +18,13 @@ C:\Users\thiag\Desktop\jokenpo\JoKenPo\Pedra_Papel_Tesoura\Pedra_Papel_Tesoura\o
 C:\Users\thiag\Desktop\jokenpo\JoKenPo\Pedra_Papel_Tesoura\Pedra_Papel_Tesoura\obj\Debug\Pedra_Papel_Tesoura.csproj.CoreCompileInputs.cache
 C:\Users\thiag\Desktop\jokenpo\JoKenPo\Pedra_Papel_Tesoura\Pedra_Papel_Tesoura\obj\Debug\Pedra_Papel_Tesoura.exe
 C:\Users\thiag\Desktop\jokenpo\JoKenPo\Pedra_Papel_Tesoura\Pedra_Papel_Tesoura\obj\Debug\Pedra_Papel_Tesoura.pdb
+C:\Users\thiag\Source\Repos\Jogo-\JoKenPo\Pedra_Papel_Tesoura\Pedra_Papel_Tesoura\bin\Debug\Pedra_Papel_Tesoura.exe.config
+C:\Users\thiag\Source\Repos\Jogo-\JoKenPo\Pedra_Papel_Tesoura\Pedra_Papel_Tesoura\bin\Debug\Pedra_Papel_Tesoura.exe
+C:\Users\thiag\Source\Repos\Jogo-\JoKenPo\Pedra_Papel_Tesoura\Pedra_Papel_Tesoura\bin\Debug\Pedra_Papel_Tesoura.pdb
+C:\Users\thiag\Source\Repos\Jogo-\JoKenPo\Pedra_Papel_Tesoura\Pedra_Papel_Tesoura\obj\Debug\Pedra_Papel_Tesoura.csprojAssemblyReference.cache
+C:\Users\thiag\Source\Repos\Jogo-\JoKenPo\Pedra_Papel_Tesoura\Pedra_Papel_Tesoura\obj\Debug\Pedra_Papel_Tesoura.Form1.resources
+C:\Users\thiag\Source\Repos\Jogo-\JoKenPo\Pedra_Papel_Tesoura\Pedra_Papel_Tesoura\obj\Debug\Pedra_Papel_Tesoura.Properties.Resources.resources
+C:\Users\thiag\Source\Repos\Jogo-\JoKenPo\Pedra_Papel_Tesoura\Pedra_Papel_Tesoura\obj\Debug\Pedra_Papel_Tesoura.csproj.GenerateResource.cache
+C:\Users\thiag\Source\Repos\Jogo-\JoKenPo\Pedra_Papel_Tesoura\Pedra_Papel_Tesoura\obj\Debug\Pedra_Papel_Tesoura.csproj.CoreCompileInputs.cache
+C:\Users\thiag\Source\Repos\Jogo-\JoKenPo\Pedra_Papel_Tesoura\Pedra_Papel_Tesoura\obj\Debug\Pedra_Papel_Tesoura.exe
+C:\Users\thiag\Source\Repos\Jogo-\JoKenPo\Pedra_Papel_Tesoura\Pedra_Papel_Tesoura\obj\Debug\Pedra_Papel_Tesoura.pdb

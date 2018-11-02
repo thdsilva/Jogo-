@@ -17,22 +17,17 @@ namespace Pedra_Papel_Tesoura
         Escolhas[] escolhas = { Escolhas.Pedra, Escolhas.Papel, Escolhas.Tesoura };
         Escolhas jogadorEscolha, IAEscolha;
         bool proximo = false;
-
         public Form1()
         {
             InitializeComponent();
             bool proximo = false; PbIA.Image = null; PbJogador.Image = null;
         }
-
         private void Escolhas_Click(object sender, EventArgs e)
-        {
-            
+        {            
             PictureBox imagemI = (PictureBox)sender;
             bool proximo = true;
-
             if (proximo)
             {
-
                 switch (imagemI.Tag.ToString())
                 {
                     case "pedra": jogadorEscolha = Escolhas.Pedra; PbJogador.Image = Properties.Resources.pedra_long; break;
@@ -43,7 +38,6 @@ namespace Pedra_Papel_Tesoura
                 JogadaIA();
             }
         }
-
                private void ChecarPedra()
         {
             switch (IAEscolha.ToString())
@@ -56,7 +50,6 @@ namespace Pedra_Papel_Tesoura
             }
             proximo = true; PbIA.Image = null; PbJogador.Image = null;
         }
-
         private void ChecarPapel()
         {
             switch (IAEscolha.ToString())
@@ -71,7 +64,6 @@ namespace Pedra_Papel_Tesoura
             }
             proximo = true; PbIA.Image = null; PbJogador.Image = null;
         }
-
         private void ChecarTesoura()
         {
             switch (IAEscolha.ToString())
@@ -83,35 +75,26 @@ namespace Pedra_Papel_Tesoura
                     MessageBox.Show("Você Ganhou!");
                     pontosJogador++; lblJogador.Text = "Jogador: " + pontosJogador.ToString(); break;
                 case "Tesoura":
-                    MessageBox.Show("Empate!"); break;  
-                    
+                    MessageBox.Show("Empate!"); break;                     
             }
             proximo = true; PbIA.Image = null; PbJogador.Image = null;
         }
-
         private void JogadaIA()
         {
-
             Random aleartorio = new Random();
             IAEscolha = escolhas[aleartorio.Next(0, escolhas.Length)];
-
             switch (IAEscolha.ToString())
             {
                 case "Pedra": PbIA.Image = Properties.Resources.pedra_long2; break;
                 case "Papel": PbIA.Image = Properties.Resources.papel_long2; break;
                 case "Tesoura": PbIA.Image = Properties.Resources.tesoura_long2; break;
             }
-
-
             switch (jogadorEscolha.ToString())
             {
                 case "Pedra": ChecarPedra(); break;
                 case "Papel": ChecarPapel(); break;
                 case "Tesoura": ChecarTesoura(); break;
             }
-
-
         }
-
     }
 }
